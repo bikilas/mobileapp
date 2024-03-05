@@ -1,0 +1,20 @@
+void divide(int a, int b) {
+  if (b == 0) {
+    throw FormatException('Division by zero is not allowed.');
+  }
+  
+  int result = a ~/ b;
+  print('Result: $result');
+}
+
+void main() {
+  try {
+    divide(10, 0);
+  } catch (e) {
+    if (e is FormatException) {
+      print('Format Exception occurred: $e');
+    } else {
+      print('Error occurred: $e');
+    }
+  }
+}
