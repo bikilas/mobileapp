@@ -1,4 +1,3 @@
-Brak, [4/2/2024 1:27 PM]
 import 'package:flutter/material.dart';
 
 void main() {
@@ -136,8 +135,6 @@ class CarCard extends StatelessWidget {
                   'Year, Make, Model, VIN',
                   style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
                 ),
-
-Brak, [4/2/2024 1:27 PM]
 SizedBox(height: 8.0),
                 Text(
                   'Year: 1975',
